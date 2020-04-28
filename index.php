@@ -17,7 +17,8 @@
 </head>
 
 <body>
-<?php include ('navbar.php') ?>
+
+<?php include ('partial.navbar.php') ?>
 
     <main role="main">
 
