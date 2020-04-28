@@ -2,11 +2,9 @@
 
 $bdd = new PDO('mysql:host=localhost;dbname=wf3zoo;charset=utf8;port=3306', 'root', 'root');
 $request = "SELECT * FROM animal where id =". $_GET['id'];
-var_dump($request);
+
 $response = $bdd->query($request);
 $bestiole = $response->fetch(PDO::FETCH_ASSOC);
-var_dump($bestiole);
-var_dump($_GET['id']);
 
 ?>
 
