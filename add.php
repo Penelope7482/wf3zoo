@@ -14,27 +14,27 @@
         <div class="form-group">
           <label for="Espèce">Indiquez l'espèce</label>
           <input type="text" name="espece" id="" class="form-control" placeholder="ex: lion" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Help text</small>
+          
         </div>
         <div class="form-group">
           <label for="nom">Indiquez le nom de l'animal</label>
           <input type="text" name="nom" id="" class="form-control" placeholder="ex: pépète" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Help text</small>
+        
         </div>
         <div class="form-group">
           <label for="taille">Indiquez sa taille en cm</label>
           <input type="text" name="taille" id="" class="form-control" placeholder="Ex: 240" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Help text</small>
+         
         </div>
         <div class="form-group">
           <label for="poids">Indiquez son poids en grammes</label>
           <input type="text" name="poids" id="" class="form-control" placeholder="Ex: 5000" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Help text</small>
+ 
         </div>
         <div class="form-group">
           <label for="pays_origine">Indiquez son pays d'origine</label>
           <input type="text" name="pays_origine" id="" class="form-control" placeholder="ex: France" aria-describedby="helpId">
-          <small id="helpId" class="text-muted">Help text</small>
+        
         </div>
         <div  ><ul style="list-style-type:none"><li>
            <input type="radio" name="sexe" id="radioSexeMâle" value="0" > 

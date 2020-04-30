@@ -49,13 +49,13 @@ $bestiole = $response->fetch(PDO::FETCH_ASSOC);
                                 <?php if ($bestiole['sexe']==0){$bestiole['sexe']= 'Mâle';}else{$bestiole['sexe']='femelle';}?>
                                 <?php $date= strtotime($bestiole['date_de_naissance']); $date_naissance=date('d/m/Y', $date);?>
                                 <?php $genre=''; if ($bestiole['sexe']=='Mâle'){$genre= 'Il';}else{$genre='Elle';}?>
-                                <p class="card-text"><?= $bestiole['nom'] ?> est notre <?= $bestiole['sexe'] ?> <?= $bestiole['espece'] ?>. Sa taille est de <?= $bestiole['taille'] ?> cm et son poids de <?=$bestiole['poids'] ?> grammes. <?=$genre?> est née au <?=$bestiole['pays_origine'] ?> le <?= $date_naissance ?></p>
+                                <p class="card-text"><?= $bestiole['nom'] ?> est notre <?= $bestiole['sexe'] ?> <?= $bestiole['espece'] ?>. Sa taille est de <?= $bestiole['taille'] ?> cm et son poids de <?=$bestiole['poids'] ?> grammes. <?=$genre?> est née au <?=$bestiole['pays_origine'] ?> le <?= $date_naissance?></p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                        <small class="text-muted">9 mins</small>
+                                      
                                 </div> 
                                 <br>
                                 <a href="index.php"><small>< Retourner à la page précédente</small> </a>

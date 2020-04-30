@@ -59,7 +59,15 @@ $animal = $response->fetchAll(PDO::FETCH_ASSOC);
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                                     <a  href="show.php?id=<?=$bestiole['id']?>"><button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    
+                                    <div class="btn-group">
+                                        <a href="edit.php?id=<?=$bestiole['id']?>" class="text-white"><button type="button" class="btn btn-sm btn-outline-secondary">Modifier cette fiche Animal</button>
+                                        </a>                                   
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="confirmDelete.php?id=<?=$bestiole['id']?>" class="text-white"><button type="button" class="btn btn-sm btn-outline-secondary">Supprimer cette fiche Animal</button>
+                                        </a>                                   
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -14,6 +14,7 @@
                             <li><a href="#" class="text-white">Nous écrire</a></li>
                             <li><a href="add.php" class="text-white">Créer une fiche animal</a></li>
                             <li><a href="index.php" class="text-white">Retour à la page d'accueil</a></li>
+                            
                         </ul>
                     </div>
                 </div>
